@@ -27,6 +27,21 @@
 	color: #330;
 	font-size: 36px;
 	}
+	table,th, td
+ 	{
+ 	 border: 2px solid black;
+	 font-family:"宋体";
+	 
+	 color:#000;
+    }
+	table thead
+	{
+		font-size:30px;
+	}
+	table tbody
+	{
+		font-size:20px;
+	}
     </style>
 <script type="text/javascript">
 	function printdiv()
@@ -39,7 +54,7 @@
 </script>
   </head>
 
-  <body>
+<body>
     <header>
       <div class="inner">
         <h1>Resume</h1>
@@ -56,18 +71,31 @@
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
-		
-
-
-
-
-
-
-
-
-
-			
-
+			<!-- 简历正文 -->
+      		<table id="resume">
+            	<thead>
+                	<tr>
+                    	<th colspan="4">个人简历</th>
+                    </tr>
+                </thead>
+                <tbody>
+                	<tr>
+                    	<th>姓名：</th><td>李雄</td><th>性别：</th><td>男</td>
+                    </tr>
+                    <tr>
+                    	<th>出生年月：</th><td>1991年10月</td><th>籍贯：</th><td>安徽合肥</td>
+                    </tr>
+                    <tr>
+                    	<th>毕业院校：</th><td>合肥工业大学</td><th>专业：</th><td>软件工程</td>
+                    </tr>
+                     <tr>
+                    	<th>英语能力：</th><td>英语4级</td><th>民族：</th><td>汉</td>
+                    </tr>
+                     <tr>
+                    	<th>联系电话：</th><td>13655510714</td><th>邮箱：</th><td><a href="mailto:demonli7452@gmail.com">demonli7452@gmail.com</a></td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
 
         <aside id="sidebar">

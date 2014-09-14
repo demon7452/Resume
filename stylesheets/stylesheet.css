@@ -50,7 +50,6 @@ table {
 body {
   font-size: 15px;
   line-height: 1.5; 
-  background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   font-weight: 400;
   color: #666;
@@ -111,8 +110,6 @@ header h2 {
   width: 690px;
   float: left;
 }
-
-
 
 aside#sidebar {
   width: 200px;
